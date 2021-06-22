@@ -95,7 +95,7 @@ app.layout = html.Div(children=[
                            {'label': 'Yearly Airline Delay Report', 'value': 'OPT2'}
                            ],
                   placeholder='Select a report type',
-                  style={'textAlign': 'center','width': 80, 'padding': 3, 'font-size':20})  
+                  style={'textAlign': 'center','width': '80%', 'padding': '3px', 'font-size':'20px'})  
                                     # Place them next to each other using the division style
                                     ], style={'display':'flex'}),
                                     
@@ -130,7 +130,7 @@ app.layout = html.Div(children=[
                                 html.Div([
          html.Div([ ], id='plot4'),
          html.Div([ ], id='plot5')
-         ], style={'flex'})
+         ], style={'display': 'flex'})
                                
                                 
                                 ])
